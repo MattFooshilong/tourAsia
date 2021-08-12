@@ -1,0 +1,92 @@
+/* a.hoverWhiteBg:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+    text-decoration: none; 
+  } */
+a.noUnderLine:hover{
+  text-decoration: none; 
+}
+  .imageSize{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+
+  a.hoverBtn:hover{
+   color:black;
+   text-decoration: none; 
+  }
+  .hoverBtn{
+    color:white;
+    
+  }
+  .cardStyle{
+    margin: 30px 0px;
+  }
+  .cardImg{
+    width: 267px;
+     height: 210px;
+  }
+  .iti{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 1px solid white;
+  }
+  .bookDetails{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px 30px 30px 30px;
+    border: 1px solid white;
+  }
+  .countryImg{
+    height: 168px;
+    width: 223px;
+  }
+  .hiddenInfo{
+    height:20px;
+    width:100px;
+    background-color:#c9c9c9;
+  }
+  
+
+.switchStyle{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 32px;
+}
+.switchIconStyle{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    
+}
+
+  @media (max-width: 575.98px) { 
+    .switchStyle{
+      margin-right:10px;
+    }
+    .smallScreenStyle{
+      display:flex;
+      flex-direction: row;
+     justify-content: center;
+    }
+    .countryImg{
+      margin:10px 0px;
+      width:100%;
+      min-height: 255px;
+    }
+    .cardImg{
+      width: 100%;
+       height: auto;
+    }
+    .bookDetails{
+      margin-top:20px;
+      padding-top:20px;
+     
+     
+    }
+  }
