@@ -22,13 +22,19 @@ class App extends Component {
     }
   }
   
+
   handleChange=()=>{
     this.setState({darkMode:!this.state.darkMode});
+    console.log("commit2");
+    console.log("commit3");
   }
+
+
   render() {
     console.log(this.state.darkMode);//rendering twice, not sure
     let blackOrWhite= this.state.darkMode? 'black':'white'
     
+    console.log("commit1")
     
     return (
       <div style={{backgroundColor:`${blackOrWhite}`}}>
