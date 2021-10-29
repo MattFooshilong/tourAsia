@@ -31,3 +31,5 @@ test('test the bookNow btn in the navbar', () => {
 //     getByText("Matt Foo");
 
 // })
+
+//test fri 29
